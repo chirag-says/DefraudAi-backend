@@ -1,0 +1,28 @@
+# Core FastAPI
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ML/AI - CPU-only versions (much smaller than CUDA)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+pillow
+numpy
+transformers
+
+# HTTP & Utils
+requests
+python-dotenv
+
+# Database (MongoDB)
+motor
+pymongo
+
+# Security & Authentication
+python-jose[cryptography]
+bcrypt
+pydantic[email]
+
+# Rate Limiting
+slowapi
